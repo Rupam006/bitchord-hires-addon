@@ -1,11 +1,11 @@
 import { searchAll, resolveStream, health } from '../lib/router.js';
 import { createBitChordAuth } from '../lib/bitchord-addon-auth.mjs';
 const bitchord = createBitChordAuth({
-    hosts: ['bitchord-hires-addon.de.deplexo.com', 'bitchord-hires-addon.vercel.app'],
+    hosts: ['hiress.onrender.com'],
 });
 const MANIFEST = {
-    id: 'dev.akira.bitchord-hires',
-    name: 'juanjob hi res',
+    id: 'dev.rupam.bitchord-hires',
+    name: 'Hi-res',
     version: '1.2.2',
     description: 'Multi-source lossless addon: Qobuz hi-res, Tidal, Monochrome, Netease, Deezer catalogue. Automatic failover.',
     resources: ['search', 'stream'],
